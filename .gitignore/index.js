@@ -2,7 +2,7 @@ const  Discord  =  require ( ' discord.js ' );
  client  const =  new  Discord.Client ();
 var prefix =  " $ " ;
 
-client . login ( processus . env . " NjIzMDEzMjU2NTY2NjY5MzQz.XX8c9Q.3MphkoiQ0YX3041Ef76 --- WN7Ao " );
+client . login ( processus.env.TOKEN)
 
 client . on ( " message " , message   => {
     si ( ! message . guilde ) retour
