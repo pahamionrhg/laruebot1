@@ -1,30 +1,19 @@
 {
-    " name " : " LA RUE " ,
-    " version " : " 0.0.1 " ,
-    " description " : " Un bot pour Discord " ,
-    " readme " : " README.md " ,
-    " author " : " Xeta <zoro.fmt@gmail.com> " ,
-    " référentiel " : {
-      " type " : " git " ,
-      " url " : " https://github.com/Xety/Discord-Bot "
-    },
-    " bugs " : {
-      " url " : " https://github.com/Xety/Discord-Bot/issues "
-    },
-    " keywords " : [
-      " discorde " ,
-      " bot " ,
-      " discordapp "
-    ],
-    " licence " : " MIT " ,
-    " main " : " bot.js " ,
-    " annuaires " : {
-      " lib " : " ./lib "
-    },
-    " dépendances " : {
-      " discord.js " : " * " ,
-      " youtube-node " : " 1.2.x " ,
-      " chaîne de requête " : " 3. * " ,
-      " demande " : " > = 2.58.0 "
-    }
+  "name": "larue",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "love",
+  "license": "ISC",
+  "description": "Bot",
+  "repository": {
+    "type": "git",
+    "url": "(index.js) bot.js"
   }
+}
